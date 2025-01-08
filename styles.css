@@ -46,6 +46,19 @@ a {
     gap: 10px;
 }
 
+.sub-btn {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    flex: 0;
+    padding: 5px 15px;
+}
+
+.sub-btn:hover {
+    cursor: pointer;
+}
+
 .website-info {
     flex: 1;
     padding-top: 20px;
@@ -81,25 +94,114 @@ a {
     background-color: white;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex: 1 1 0;
+    flex-direction: column;
+}
+
+.info-title {
+    flex: 1 1 0;
+    max-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 32px;
+}
+
+.info-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 150px;
+    padding-bottom: 50px;
+}
+
+.info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    height: 100px;
+    width: 100px;
+    border: 2px  solid blue;
+    border-radius: 5px;
 }
 
 .quote {
     background-color: #E5E7Eb;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex: 1 1 0;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+.quote-author {
+    font-weight: 600;
+    font-size: small;
+    text-align: end;
 }
 
 .sign-up {
     background-color: white;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     flex: 1 1 0;
+    justify-content: center;
+}
+
+.sign-up_container {
+    margin: 50px;
+    flex: 1 1 0;
+    height: 80px;
+    background-color: #3882F6;
+    max-width: 500px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.sign-up_btn {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    flex: 0;
+    padding: 5px 15px;
+    max-height: 30px;
+    min-width: 100px;
+}
+
+.sign-up_text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sign-up_title {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.sign-up_sub {
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
 }
