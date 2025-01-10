@@ -210,6 +210,10 @@ a {
     min-width: 100px;
 }
 
+.sign-up_btn:hover  {
+    cursor: pointer;
+}
+
 .sign-up_text {
     display: flex;
     flex-direction: column;
