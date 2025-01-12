@@ -231,3 +231,13 @@ a {
     font-size: 12px;
     font-weight: 400;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
